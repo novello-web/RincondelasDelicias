@@ -39,7 +39,7 @@ function agregarAlCarrito(producto) {
     mostrarModalOpciones(producto);
   } else {
     agregarProductoAlCarrito(producto);
-    mostrarNotificacion(` ✔️Agregado al carrito.`);
+    mostrarNotificacion(` ✅Agregado al carrito.`);
   }
 }
 
@@ -57,7 +57,7 @@ function confirmarAgregar() {
 
   agregarProductoAlCarrito(final);
   cerrarOpciones();
-  mostrarNotificacion(`✔️Agregado al carrito.`);
+  mostrarNotificacion(`✅Agregado al carrito.`);
 }
 
 function agregarProductoAlCarrito(producto) {
