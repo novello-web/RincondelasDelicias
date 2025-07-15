@@ -268,12 +268,14 @@ a {
   background-color: #c0392b;
 }
 
-.informacion{
+.informacion {
   width: 100%;
-  padding: 100px;
+  padding: 100px 20px;
   background-color: #333;
   box-sizing: border-box;
+  margin-top: auto;
 }
+
 
 .ubi{
     text-shadow: none;
